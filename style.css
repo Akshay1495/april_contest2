@@ -1,0 +1,178 @@
+/* Reset CSS */
+*:not(.navbar, .container, .logo, .intro p, .intro h1) {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: #FCAF02;
+    background-color: black;
+  }
+
+/* Navbar styling */
+.navbar {
+   background: #FCAF02;
+    padding: 15px 15px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+  
+  .navbar .logo {
+    color: black; 
+  }
+  
+  .navbar .nav-links li a {
+    display: inline-block;
+    margin-left: 20px;
+    background: #FCAF02;
+    /*color: black;  Set the color of the navbar links to black */
+  }
+  
+  .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .nav-links {
+    background: #FCAF02;
+    list-style: none;
+  }
+  
+  .nav-links li {
+    background: #FCAF02;
+    display: inline;
+    margin-left: 20px;
+  }
+  
+  .nav-links li a {
+    color:black;
+    text-decoration: none;
+  }
+    
+  
+  
+  /* Intro Section */
+  .intro {
+    padding: 50px 30px;
+  }
+  
+  .intro .intro-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .intro h1 {
+    color: white;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .intro p {
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .intro button {
+    padding: 10px 20px;
+    margin: 50px 50px 50px 50px;
+    width: 150px;
+    font-weight: bolder;
+    background-color: #FCAF02;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .intro-image img {
+    max-width: 400px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+  }
+  
+  /* Contact Us Section */
+.contact{
+    max-width: 900px;
+    background: #FCAF02;
+}
+
+.contact h2{
+    
+    background: black;
+    color:#FCAF02;
+    margin: 10px;
+}
+
+
+.contact-form{
+    max-width: 1200px;
+    margin: 20px 50px 2px 10px;
+}
+
+  .input-field {
+    width: 1100px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    max-width: 650px;
+  } 
+
+  .contact input[type="text"]::"Name"  {
+    width: 1100px;
+  }
+
+
+  .contact input[type="email"] {
+    width: 1100px;
+  }
+
+  .contact button{
+  padding: 10px 20px;
+    margin: 50px 50px 50px 50px;
+    width: 150px;
+    font-weight: bolder;
+    background-color: #FCAF02;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    align-items: center;
+}
+  
+  /* Table Section */
+  .table {
+    padding: 50px;
+    margin: 50px 50px 500px 50px;   
+    color: #FCAF02;
+  }
+  
+  .table h2 {
+    margin-bottom: 20px;
+    color: #FCAF02;
+  }
+  
+  .table {
+    width: 100%;
+    color: #FCAF02;
+  }
+  
+  table th,
+  table td,
+  table tr {
+    color: #FCAF02;
+    border: 1px solid #FCAF02;
+    padding: 10px 20px;
+    margin: 20px;
+  }
+  
+  tfoot {
+    background: #FCAF02;
+    color: black;
+    font-weight: bold;
+  }
+  
